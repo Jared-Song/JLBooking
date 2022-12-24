@@ -8,10 +8,17 @@ import Navbar from "./components/navbar";
 import RecordList from "./components/recordList";
 import Edit from "./components/edit";
 import Create from "./components/create";
+import Nav from "./components/nav";
+
+// tailwind css dependencies
+import "./index.css";
 
 const App = () => {
   return (
     <div>
+      <div>
+        <Nav />
+      </div>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<RecordList />} />

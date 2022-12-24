@@ -73,6 +73,7 @@ export default function RecordList() {
   return (
     <div>
       <h3>Record List</h3>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <table className="table table-striped" style={{ marginTop: 20 }}>
         <thead>
           <tr>
